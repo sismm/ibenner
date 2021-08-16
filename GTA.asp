@@ -1,6 +1,6 @@
 <%@language="vbscript"%>
 
-<!--#include file="../asp/_conexao.asp"-->
+<!--#include file="./asp/_conexao.asp"-->
 
 <%
 dim rFSO, rArquivo, wFSO, wArquivo
@@ -35,6 +35,7 @@ sCodigo=""
 sArqTxt = "c:\_asp\benarrec-"
 'o Rogerio Scaion adaptou o caminho abaixo:'
 'sArqTxt = "\\SERVAPLERPP\Benner\Integrator\ERP_ARRECADACAO\benarrec-" '
+'<!--#include file="../asp/_conexao.asp"-->'
 
 
 'Gravação de txt c/Totais de Arrecadação'
